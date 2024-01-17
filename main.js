@@ -11,12 +11,12 @@ var mouseEvent = "empty";
     canvas.setEventListener("mousedown", my_mousedown);
     
 
-    function mousedown(e)
+    function my_mousedown(e)
     {
         color = document.getElementById("color").value;
         widthOfLine = document.getElementById("widthOfLine").value;
         radius = document.getElementById("radius").value;
-        mouseEvent = "my_mouseDown";
+        mouseEvent = "mouseDown";
     }
 
     /*
